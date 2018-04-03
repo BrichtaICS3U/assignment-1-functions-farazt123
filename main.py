@@ -12,4 +12,5 @@
 #
 
 temperature = int(input('Enter your temperature in Celsius: '))
-print(temperature)
+temperature = 32+(temperature*1.8)
+print(round(temperature))
